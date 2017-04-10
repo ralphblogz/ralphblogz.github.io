@@ -1,13 +1,6 @@
 <!DOCTFILE HTML>
 <html>
 <head>
- <title>Ralph Blogz - Home</title>
-<table border="2" bgcolor="yellow" align="center">
- <tr>
-  <td><button><a href="https://ralphblogz.github.io">Home</a></button></td>
-  <td bgcolor="white">About</td>
- </tr>
-</table>
  <style>
        .button {
     background-color: #4CAF50;
@@ -47,9 +40,53 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+  
+    .button3 {
+    background-color: #e7e7e7; color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+      .button4 {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+      .button5 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
     </style>
-</style>
- 
+  <title>Ralph Blogz - Home</title>
+<table border="2" bgcolor="yellow" align="center">
+ <tr>
+  <td><button><a href="https://ralphblogz.github.io">Home</a></button></td>
+  <td bgcolor="white">About</td>
+ </tr>
+</table>
     <hr />
     <button onclick="red()" class="button2">Click to go red!</button>
  <script>
@@ -75,13 +112,13 @@
    document.body.style.backgroundColor="blue";
   }
  </script>
- <button onclick="black()">Click to go black!</button>
+ <button onclick="black()" class="button5">Click to go black!</button>
  <script>
   function black(){
    document.body.style.backgroundColor="black";
   }
  </script>
- <button onclick="gray()">Click to go gray!</button>
+ <button onclick="gray()" class="button3">Click to go gray!</button>
  <script>
   function gray(){
    document.body.style.backgroundColor="gray";

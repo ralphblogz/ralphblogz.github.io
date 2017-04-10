@@ -1,0 +1,148 @@
+ <style>
+       .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+       
+       .button1 {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+  .button2 {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+    .button3 {
+    background-color: #e7e7e7; color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+      .button4 {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+      .button5 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+        .button6 {
+    background-color: #D2691E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    </style>
+  <title>Ralph Blogz - Home</title>
+<table border="2" bgcolor="yellow" align="center">
+ <tr>
+  <td><button><a href="https://ralphblogz.github.io">Home</a></button></td>
+  <td bgcolor="white">About</td>
+ </tr>
+</table>
+    <hr />
+    <button onclick="red()" class="button2">Click to go red!</button>
+ <script>
+  function red(){
+   document.body.style.backgroundColor="red";
+  }
+ </script>
+ <button onclick="white()">Click to go white!</button>
+ <script>
+  function white(){
+   document.body.style.backgroundColor="white";
+  }
+ </script>
+ <button onclick="green()" class="button">Click to go green!</button>
+ <script>
+  function green(){
+   document.body.style.backgroundColor="green";
+  }
+ </script>
+ <button onclick="blue()">Click to go blue!</button>
+ <script>
+  function blue(){
+   document.body.style.backgroundColor="blue";
+  }
+ </script>
+ <button onclick="black()" class="button5">Click to go black!</button>
+ <script>
+  function black(){
+   document.body.style.backgroundColor="black";
+  }
+ </script>
+ <button onclick="gray()" class="button3">Click to go gray!</button>
+ <script>
+  function gray(){
+   document.body.style.backgroundColor="gray";
+  }
+ </script>
+ <button onclick="yellow()">Click to go yellow!</button>
+ <script>
+  function yellow(){
+   document.body.style.backgroundColor="yellow";
+  }
+ </script>
+ <button onclick="brown()" class="button6">Click to go brown!</button>
+ <script>
+  function brown(){
+   document.body.style.backgroundColor="#D2691E";
+  }
+ </script>

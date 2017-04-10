@@ -20,6 +20,32 @@
     margin: 4px 2px;
     cursor: pointer;
     }
+       
+       .button1 {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+  
+  .button2 {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
     </style>
 </head>
   <title>Ralph - Home</title>
@@ -45,7 +71,7 @@
   </tr>
 </table>
     <hr />
-    <button onclick="red()">Click to go red!</button>
+    <button onclick="red()" class="button2">Click to go red!</button>
  <script>
   function red(){
    document.body.style.backgroundColor="red";
@@ -57,7 +83,7 @@
    document.body.style.backgroundColor="white";
   }
  </script>
- <button onclick="green()">Click to go green!</button>
+ <button onclick="green()" class="button">Click to go green!</button>
  <script>
   function green(){
    document.body.style.backgroundColor="green";
@@ -85,12 +111,6 @@
  <script>
   function yellow(){
    document.body.style.backgroundColor="yellow";
-  }
- </script>
- <button onclick="green()">Click to go green!</button>
- <script>
-  function green(){
-   document.body.style.backgroundColor="green";
   }
  </script>
  <button onclick="brown()">Click to go brown!</button>

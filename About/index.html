@@ -9,8 +9,21 @@
  </tr>
 </table>
  <style>
-.button1 {
+       .button {
     background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+       
+       .button1 {
+    background-color: #555555;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,7 +47,55 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+    </style>
 </style>
- <p>Test :D</p>
- <button class="button1">Test!</button>
- <button class="button2">Test!</button>
+ 
+    <hr />
+    <button onclick="red()" class="button2">Click to go red!</button>
+ <script>
+  function red(){
+   document.body.style.backgroundColor="red";
+  }
+ </script>
+ <button onclick="white()">Click to go white!</button>
+ <script>
+  function white(){
+   document.body.style.backgroundColor="white";
+  }
+ </script>
+ <button onclick="green()" class="button">Click to go green!</button>
+ <script>
+  function green(){
+   document.body.style.backgroundColor="green";
+  }
+ </script>
+ <button onclick="blue()">Click to go blue!</button>
+ <script>
+  function blue(){
+   document.body.style.backgroundColor="blue";
+  }
+ </script>
+ <button onclick="black()">Click to go black!</button>
+ <script>
+  function black(){
+   document.body.style.backgroundColor="black";
+  }
+ </script>
+ <button onclick="gray()">Click to go gray!</button>
+ <script>
+  function gray(){
+   document.body.style.backgroundColor="gray";
+  }
+ </script>
+ <button onclick="yellow()">Click to go yellow!</button>
+ <script>
+  function yellow(){
+   document.body.style.backgroundColor="yellow";
+  }
+ </script>
+ <button onclick="brown()">Click to go brown!</button>
+ <script>
+  function brown(){
+   document.body.style.backgroundColor="brown";
+  }
+ </script>

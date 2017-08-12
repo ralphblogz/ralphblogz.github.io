@@ -1,39 +1,67 @@
-<!DOCTFIL HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      RalphBlogz - Home
-    </title>
-    <style>
-      tr.left {
-       float: left;
-      }
-      tr.right {
-      float: right; 
-      }
-      td.left100 {
-       font-size: 4em;
-       font-weight: bold; 
-      }
-    </style>
-  </head>
-  <body>
-    <tr>
-      <td colspan="3"></td>
-      <td colspan="3"valign="bottom">RalphBlogz</td>
-    </tr>
-    <tr>
-      <td colspan="2"></td>
-      <td colspan="4" class="left100" valign="top">All the stuff you need to know</td>
-    </tr>
-    <div align="center">
-       
-    </div>
-    <tr class="right">
-      <td width="400px"></td>
-      <td width="70px"><a href="#">Home</a></td>
-      <td width="70px"><a href="#">About</a></td>
-      <td width="70px"><a href="#">My Games</a></td>
-    </tr>
-  </body>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: #1F1F1F;
+    background-color: #F9F9F9;
+    clear: left;
+    text-align: center;
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>RalphBlogz - Home</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Games</a></li>
+  </ul>
+</nav>
+
+<article>
+  <h1>Home</h1>
+  <p>Welcome to RalphBlogz!
+</article>
+
+<footer>RalphBlogz 2017</footer>
+
+</div>
+
+</body>
 </html>
